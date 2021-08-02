@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Document</title>
+</head>
+<body bgcolor="CadetBlue">
+
+    <table
+           align="center"
+           cellpadding="10"
+           bgcolor="AntiqueWhite"
+           > 
+        <tr>
+            <td width="640">
+                <h1>Genoa Tour</h1>
+                <img src="images/sea-4166255_640.jpg" alt="">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic nesciunt quia quas sunt eos ex eligendi atque sequi 
+                    ratione, molestias beatae odio voluptas itaque inventore sapiente id minima facilis explicabo?</p>
+            </td>
+        </tr>
+
+        <tr>
+        
+            <td width="640">
+                <form action="thankyou.html">
+                    <fieldset>
+                    <legend>
+                        Personal data
+                    </legend>
+
+                    <label>
+                        <br/>
+                        Your full name:
+                        <input 
+                        type="text"
+                        size="60"
+                        required
+                        name="fullname"
+                        />
+                    </label>
+
+                    <br/><br/>
+
+                    <label>
+                        Choose your City:
+                        <select name="city" required>
+                            <option value="Romania">Romania</option>
+                            <option value="Moldova">Moldova</option>
+                            <option value="Ukraine">Ukraine</option>
+                        </select>
+                    </label>
+
+                    <br/><br/>
+
+                    <label>
+                        Choose your Town:
+                        <select name="town" required>
+                            <option value="Bucharest">Bucharest</option>
+                            <option value="Chisinau">Chisinau</option>
+                            <option value="Kiev">Kiev</option>
+                        </select>
+                    </label>
+
+                    <br/><br/>
+
+                    <label>
+                        Phone number:
+                        <input
+                        type="tel"
+                        pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                        placeholder="Example: +373-123-45-678"
+                        name="phone"
+                        />
+                    </label>
+
+                    <br/><br/>
+
+                    <label>
+                        email address:
+                        <input 
+                        type="text"
+                        required
+                        name="email"
+                        />
+                    </label>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>
+                            Transportation
+                        </legend>
+                        <label>
+                            <br/>
+                            Choose type:
+                            <input type="radio" name="transport" required/> Bus
+                            <input type="radio" name="transport" required/> Car
+                            <input type="radio" name="transport" required/> Transportation
+                            <input type="radio" name="transport" required/> Ship
+                            <input type="radio" name="transport" required/> Plane
+                            
+                        </label>
+                    </fieldset>
+                    <hr/>
+                    <p align="right">
+                    <button>Next <img align="middle" src="images/Actions-go-next-view-icon.png"/></button>
+                    </p>
+                    
+                </form>
+            </td>
+        </tr>
+        
+    </table>
+
+    
+    
+</body>>
+</html>
